@@ -1,0 +1,32 @@
+﻿/*
+    (c) Martin Korneffel, Stuttgart 2017
+*/
+
+
+code {
+    color: red;
+    font-family: Consolas, Courier New, Courier, monospace;
+}
+
+pre{
+    background-color:antiquewhite;
+    border-radius: 8px;
+    padding: 8px;
+    /*font-size: 12pt;*/
+
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/*@media screen and (max-width: 989px) {
+    pre{
+        font-size: 24pt;
+    }    
+}*/
+
+figure {
+    text-align: center;    
+}

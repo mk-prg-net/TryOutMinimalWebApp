@@ -1,0 +1,205 @@
+﻿/*
+    (c) Martin Korneffel, IT-Beratung/Softwareentwicklung, Stuttgart 2014
+    */
+
+body {
+    background-color: #404040; /* Schrift */
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 10pt;
+    color: #dfdfdf;
+    margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        font-size: 16pt;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Hyperlinks */
+
+a:link {
+    color: gold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gold;
+    text-decoration: none;
+}
+
+a:focus {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aquamarine;
+    text-decoration: none;   
+
+}
+
+a:hover span.glyph{
+    font-size: 70pt;
+    border-color: white;
+}
+
+a:active {
+    color: gold;
+    text-decoration: none;
+}
+
+
+.LikeHyperLink {
+    color: #284E98;
+    text-decoration: underline;
+}
+
+/* Element is hidden*/
+hidden {
+    height: 0px;
+    width: 0px;
+    display: none;
+}
+
+/* ------------------------------------------------------------------------------ */
+/*
+    Dokumentgliederung
+    */
+
+.disclaimer {
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+    background-color: firebrick;
+    color: white;    
+    text-align: center;       
+}
+
+
+section {
+    margin: 0em;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+nav {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    margin: 8px;
+}
+
+article {
+    height: 180px;
+    width: 200px;
+    margin: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    padding: 8px;
+
+    border-style: none;
+    border-color: #606060;
+    border-radius: 8px;
+    background-color: #808080;
+    text-align: center;
+    /* overflow-y: scroll */
+}
+
+
+header{
+    height: auto;
+}
+
+@media screen and (max-width:767px) {
+
+    header{
+        height: auto;
+    }
+
+    article {
+        height: auto;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+}
+
+
+article img {
+    width: 80%;
+}
+
+article a img {
+    width: initial;
+}
+
+@media screen and (max-width:767px) {
+    article img {
+        width: 80%;
+    }
+
+    .glyph {
+        font-size: 55pt;
+        width: 80%;
+    }
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: larger;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+article h1 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: large;
+    font-weight: bold;
+    color: White;
+}
+
+h3 {
+    /* Elemente aus pseudoh3 */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: White;
+}
+
+h4 {
+    /* Elemente aus pseudoh3 */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: initial;
+    font-weight: bold;
+    color: #CC0000;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Absätze */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: White;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: White;
+}

@@ -1,0 +1,533 @@
+﻿/*
+	(C) Martin Korneffel, Stuttgart 2011
+	Definition von Glyphen, welche die Funktion von Icons übernehmen
+
+	font-family: monospace, Consolas, 'Lucida Console', 'Courier New';
+	font-family: sans-serif;
+*/
+
+.glyph {
+    font-family: monospace, Consolas, 'Lucida Console', 'Courier New';
+    font-weight: bolder;
+    color: #404040;
+    font-size: 55pt;
+}
+
+
+.mk-glyph {
+    border-style: solid;
+    border-radius: 8px;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    text-align: center;
+    /*color: white; */
+    border-color: gold;
+    background-color: gold;
+}
+
+@media screen and (max-width: 989px) {
+    /*article img {
+        width: 80%;
+    }*/
+
+    .mk-glyph {
+        width: 80%;
+    }
+}
+
+.mk-glyph-cellular {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-cellular::before {
+        content: url(/Content/pics/mk-prg-net/icons/Cellular.png);
+    }
+
+
+.mk-glyph-success {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-success::before {
+        content: url(/Content/pics/mk-prg-net/icons/success.png);
+    }
+
+.mk-glyph-objfunc {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-objfunc::before {
+        content: url(/Content/pics/mk-prg-net/icons/objectfunctional-icon.png);
+    }
+
+
+
+.mk-glyph-pap {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-pap::before {
+        content: url(/Content/pics/mk-prg-net/icons/pap-icon.png);
+    }
+
+
+.mk-glyph-multithreading {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-multithreading::before {
+        content: url(/Content/pics/mk-prg-net/icons/Multithreading.png);
+    }
+
+
+.mk-glyph-state-machine {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-state-machine::before {
+        content: url(/Content/pics/mk-prg-net/icons/state-machine-icon.png);
+    }
+
+
+.mk-glyph-rocket {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-rocket::before {
+        content: url(/Content/pics/mk-prg-net/icons/rocket-45-icon.png);
+    }
+
+.mk-glyph-cuby {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-cuby::before {
+        content: url(/Content/pics/mk-prg-net/icons/cuby.png);
+    }
+
+.mk-glyph-cuby-bad {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-cuby-bad::before {
+        content: url(/Content/pics/mk-prg-net/icons/cuby-bad.png);
+    }
+
+.mk-glyph-cuby-happy {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-cuby-happy::before {
+        content: url(/Content/pics/mk-prg-net/icons/cuby-happy.png);
+    }
+
+.mk-glyph-cuby-unknown {
+    /*height: 64px;*/
+}
+
+.mk-glyph-cuby-unknown::before {
+        content: url(/Content/pics/mk-prg-net/icons/cuby-unknown.png);
+    }
+
+
+
+.mk-glyph-http {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-http::before {
+        content: url(/Content/pics/mk-prg-net/icons/http-icon.png);
+    }
+
+
+.mk-glyph-html5 {
+    /*height: 64px;*/
+}
+
+    .mk-glyph-html5::before {
+        content: url(/Content/pics/HTML5/HTML5_Logo_64.png);
+    }
+
+
+.mk-glyph-git {
+}
+
+    .mk-glyph-git::before {
+        content: url(/Content/Git/Git-Icon-1788C.small.png);
+    }
+
+.mk-glyph-consulting {
+}
+
+    .mk-glyph-consulting::before {
+        content: url(/Content/pics/mk-prg-net/icons/consulting-icon.png);
+    }
+
+
+.mk-glyph-project {
+}
+
+    .mk-glyph-project::before {
+        content: url(/Content/pics/mk-prg-net/icons/Project-Icon.png);
+    }
+
+.mk-glyph-architect {
+}
+
+    .mk-glyph-architect::before {
+        content: url(/Content/pics/mk-prg-net/icons/architect-icon.png);
+    }
+
+.mk-glyph-softdev {
+}
+
+    .mk-glyph-softdev::before {
+        content: url(/Content/pics/mk-prg-net/icons/softdev-icon.png);
+    }
+
+.mk-glyph-interface {
+}
+
+    .mk-glyph-interface::before {
+        content: url(/Content/pics/mk-prg-net/icons/interface-icon.png);
+    }
+
+.mk-glyph-di {
+}
+
+    .mk-glyph-di::before {
+        content: url(/Content/pics/mk-prg-net/icons/di-icon.png);
+    }
+
+.mk-glyph-decorator {
+}
+
+    .mk-glyph-decorator::before {
+        content: url(/Content/pics/mk-prg-net/icons/decorator-icon.png);
+    }
+
+.mk-glyph-domain {
+}
+
+    .mk-glyph-domain::before {
+        content: url(/Content/pics/mk-prg-net/icons/domain-icon.png);
+    }
+
+.mk-glyph-gui-pattern-icon {
+}
+
+    .mk-glyph-gui-pattern-icon::before {
+        content: url(/Content/pics/mk-prg-net/icons/gui-pattern-icon.png);
+    }
+
+
+.mk-glyph-info {
+}
+
+    .mk-glyph-info::before {
+        content: 'i';
+    }
+
+
+
+.mk-glyph-knowledge {
+}
+
+    .mk-glyph-knowledge::before {
+        content: url(/Content/pics/mk-prg-net/icons/wissen-icon.png);
+    }
+
+.mk-glyph-measurement {
+}
+
+    .mk-glyph-measurement::before {
+        content: '\0023F1';
+    }
+
+
+
+.mk-glyph-barchart {
+}
+
+    .mk-glyph-barchart::before {
+        content: '\01F4CA';
+    }
+
+.mk-glyph-metrology {
+}
+
+    .mk-glyph-metrology::before {
+        content: '\0025F7 \2192 \01F4C8';
+    }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 1280px) {
+    .mk-glyph-metrology::before {
+        content: '\00270D';
+    }
+}
+
+
+.mk-glyph-camera {
+}
+
+    .mk-glyph-camera::before {
+        content: '\01F4F7';
+    }
+
+
+
+.mk-glyph-scissors {
+}
+
+    .mk-glyph-scissors::before {
+        content: '\002700';
+    }
+
+.mk-glyph-write {
+}
+
+    .mk-glyph-write::before {
+        content: '\00270D';
+    }
+
+.mk-glyph-pen {
+}
+
+    .mk-glyph-pen::before {
+        content: '\00270E';
+    }
+
+.mk-glyph-trashcan {
+}
+
+    .mk-glyph-trashcan::before {
+        content: '\01F5D1';
+    }
+
+.mk-glyph-spider {
+}
+
+    .mk-glyph-spider::before {
+        content: '\01F577';
+    }
+
+.mk-glyph-spiderweb {
+}
+
+.mk-glyph-spidernweb::before {
+    content: '\01F578';
+}
+
+.mk-glyph-lips {
+}
+
+    .mk-glyph-lips::before {
+        content: '\01F578';
+    }
+
+.mk-glyph-modules {
+}
+
+    .mk-glyph-modules::before {
+        content: url(/Content/pics/mk-prg-net/icons/solid-icon.png);
+    }
+
+
+.mk-glyph-pc {
+}
+
+    .mk-glyph-pc::before {
+        content: '\01F5B3';
+    }
+
+.mk-glyph-prog {
+}
+
+    .mk-glyph-prog::before {
+        content: '\002328';
+    }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 1280px) {
+    .mk-glyph-prog::before {
+        content: 'E\2192 A';
+    }
+}
+
+.mk-glyph-keyboard {
+}
+
+    .mk-glyph-keyboard::before {
+        content: '\002328';
+    }
+
+.mk-glyph-msoffice {
+}
+
+    .mk-glyph-msoffice::before {
+        content: 'A$';
+    }
+
+
+.mk-glyph-admin {
+}
+
+.mk-glyph-admin::before {
+    content: url(/Content/pics/mk-prg-net/icons/admin-icon.png);    
+}
+
+.mk-glyph-crypto {
+}
+
+.mk-glyph-crypto::before {
+    content: url(/Content/pics/mk-prg-net/icons/crypto-icon.png);    
+}
+
+.mk-glyph-database {
+}
+
+
+    .mk-glyph-database::before {
+        content: url(/Content/pics/mk-prg-net/icons/db-icon.png);
+    }
+
+.mk-glyph-network {
+}
+
+
+    .mk-glyph-network::before {
+        content: url(/Content/pics/mk-prg-net/icons/network-icon.png);
+    }
+
+
+
+.mk-glyph-toc {
+}
+
+    .mk-glyph-toc::before {
+        content: '[i]';
+    }
+
+
+.mk-glyph-on {
+}
+
+    .mk-glyph-on::before {
+        content: '|';
+    }
+
+.mk-glyph-off {
+}
+
+    .mk-glyph-off::before {
+        content: 'O';
+    }
+
+.mk-glyph-cancel {
+}
+
+    .mk-glyph-cancel::before {
+        content: '/';
+    }
+
+.mk-glyph-select {
+}
+
+    .mk-glyph-select::before {
+        content: '>';
+    }
+
+.mk-glyph-edit {
+}
+
+    .mk-glyph-edit::before {
+        content: '>_';
+    }
+
+.mk-glyph-add-item {
+}
+
+    .mk-glyph-add-item::before {
+        content: '[.a.]+[b]\2192[.a.b]';
+    }
+
+.mk-glyph-update-item {
+}
+
+    .mk-glyph-update-item::before {
+        content: '[a\2192 a\']';
+    }
+
+.mk-glyph-del-item {
+}
+
+    .mk-glyph-del-item::before {
+        content: '[.a.]-[a]\2192[..]';
+    }
+
+.mk-glyph-filter-item {
+}
+
+    .mk-glyph-filter-item::before {
+        content: '[aAbB]#[a]\2192[ab]';
+    }
+
+.mk-glyph-group-item {
+}
+
+    .mk-glyph-group-item::before {
+        content: '[ABAB]\2192[AA|BB]';
+    }
+
+
+/*
+	Programmiersprachen
+*/
+
+.mk-glyph-pl-cs {
+}
+
+    .mk-glyph-pl-cs::before {
+        content: 'C#';
+    }
+
+.mk-glyph-pl-vb {
+}
+
+    .mk-glyph-pl-vb::before {
+        content: 'VB';
+    }
+
+.mk-glyph-pl-vb-net {
+}
+
+    .mk-glyph-pl-vb-net::before {
+        content: 'VB.NET';
+    }
+
+.mk-glyph-pl-cpp {
+}
+
+    .mk-glyph-pl-cpp::before {
+        content: 'C++';
+    }
+
+.mk-glyph-pl-sql {
+}
+
+    .mk-glyph-pl-sql::before {
+        content: 'SQL';
+    }
+
+.mk-glyph-pl-html {
+}
+
+    .mk-glyph-pl-html::before {
+        content: 'HTML';
+    }
+
+.mk-glyph-pl-js {
+}
+
+    .mk-glyph-pl-js::before {
+        content: 'JS';
+    }

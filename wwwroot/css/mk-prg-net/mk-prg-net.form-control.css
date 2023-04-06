@@ -1,0 +1,111 @@
+﻿/*
+    (c) Martin Korneffel 2018
+*/
+
+
+/* Allegemeines Input- Element*/
+input.frm-ctrl{
+    
+    border-radius: 0.25em;   
+    border-style: none;
+    width: auto;
+    padding: 0.25em;
+}
+
+output.frm-ctrl {
+    border-radius: 0.25em;
+    border-style: none;
+    background-color: antiquewhite;
+    width: auto;
+    padding: 0.25em;
+}
+
+
+/* IO nummerischer Werte */
+input.num {
+    text-align:right;    
+}
+
+/* */
+input.frm-ctrl:focus {
+    border-style: inset;
+    /*border-color: gray;*/
+    border-width: 3px;
+}
+
+/* small */
+input.s {
+    width: 10em;
+}
+
+
+/* med */
+input.med {
+    width: 15em;
+}
+
+/* large */
+input.lg{
+    width: 25em;
+}
+
+input.dock {
+    width: 100%;
+}
+
+
+input.invalid {
+    background-color:mistyrose;
+}
+
+/* 
+    From- Gruppen fassen ein Label mit Input- Elementen zusammen.
+    Sie sind inline- Blöcke.
+*/
+div.frm-grp {
+    display: inline-block;
+    background-color: lightblue;
+    border-radius: 0.25em;
+    /*border-style:outset;
+    border-width: 2px;*/
+    padding: 0.25em;
+    margin: 0.1em;
+}
+
+div.frm-grp label {
+    font-weight: bold;
+    /*border-right: solid;*/
+    background-color: lightblue;
+}
+
+/* Formular, Liste von Form-Gruppen*/
+div.frm {
+
+}
+
+/* Innerhalb eines frm sind frm-groups Blöcke */
+fieldset div.frm-grp{
+    display: block;
+}
+
+fieldset div.frm-grp label {
+    display: inline-block;
+    width: 15em;
+}
+
+fieldset div.frm-grp label.s {
+    width: 5em;
+}
+
+
+fieldsetdiv.frm-grp label.med {
+    width: 10em;
+}
+
+fieldset div.frm-grp label.lg {
+    width: 20em;
+}
+
+fieldset output {
+    display: block;
+}

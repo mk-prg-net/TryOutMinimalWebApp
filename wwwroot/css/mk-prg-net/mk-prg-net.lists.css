@@ -1,0 +1,151 @@
+﻿/*
+    (c) Mertin Korneffel, Stuttgart 2017
+*/
+
+/*
+    Ungeordnete Listen mit verscheidenen Bullet- Symbolen
+*/
+
+.boxed {
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border: solid;
+    border-radius: 4px;
+    padding: 4px;
+    border-color: gainsboro;
+    background-color: gainsboro;
+}
+
+ul.rarr {
+    list-style-type: none;
+}
+
+    ul.rarr li::before {
+        content: '\25BA\A0';
+    }
+
+ul.diamond {
+    list-style-type: none;
+}
+
+ul.square {
+    list-style-type: none;
+}
+
+    ul.square li::before {
+        content: '\25A0\A0';
+    }
+
+
+ul.diamond li::before {
+    content: '\25CA\A0';
+}
+
+ul.circle {
+    list-style-type: none;
+}
+
+    ul.circle li::before {
+        content: '\25CB\A0';
+    }
+
+ul.circle-black {
+    list-style-type: none;
+}
+
+    ul.circle-black li::before {
+        content: '\25CF\A0';
+    }
+
+ul.smiley {
+    list-style-type: none;
+}
+
+    ul.smiley li::before {
+        content: '\263A\A0';
+    }
+
+ul.smiley-black {
+    list-style-type: none;
+}
+
+    ul.smiley-black li::before {
+        content: '\263B\A0';
+    }
+
+ul.sun {
+    list-style-type: none;
+}
+
+    ul.sun li::before {
+        content: '\263C\A0';
+    }
+
+ul.number {
+    list-style-type: none;
+}
+
+    ul.number li::before {
+        content: '\2116\A0';
+    }
+
+ul.package {
+    list-style-type: none;
+}
+
+    ul.package li::before {
+        content: '\1F4E6\A0';
+    }
+
+ul.package-boxed {
+    list-style-type: none;
+}
+
+ul.package-boxed li::before {
+    content: '\1F4E6\A0';
+}
+
+ul.package-boxed li {
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border: solid;
+    border-radius: 4px;
+    padding: 4px;
+    border-color: gainsboro;
+    background-color: gainsboro;
+}
+
+
+/* 
+    Definitionslisten
+*/
+
+dt {
+    font-weight: bold;
+}
+
+@media (min-width: 990px) {
+    .dl-horizontal dt {
+        float: left;
+        width: 160px;
+        clear: left;
+        text-align: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 180px;
+    }
+}
+
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+    content: " ";
+    display: table;
+}
+
+.dl-horizontal dd:after {
+    clear: both;
+}

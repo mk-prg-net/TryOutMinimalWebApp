@@ -1,0 +1,29 @@
+﻿/*
+    (c) Martin Korneffel, Stuttgart 2017
+
+    Article with multicols, if needed.
+*/
+
+
+
+@media screen and (min-width: 990px) {
+    article {
+        column-count: 2;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-gap: 8px;
+        -webkit-column-gap: 8px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 8px; /* Firefox */
+        /*column-rule: 1px solid;
+        -webkit-column-rule: 1px solid; 
+        -moz-column-rule: 1px solid;*/ 
+    }
+}
+
+@media screen and (min-width: 1390px) {
+    article {
+        column-count: 3;
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "baseUrl": "./wwwroot/",
+    "path": {
+        //"qunit": "Scripts/qunit-2.19.3",
+        "jquery": "lib/jquery.js"
+    },
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "ES2020",
+        "outDir": "wwwroot/js/mod",
+        "module": "AMD",
+        //"moduleResolution": "node",
+        //"esModuleInterop": false
+    },
+    "include": [
+        "./wwwroot/ts/**/*",
+        "./wwwroot/typings/**/*"
+    ],
+    //"Scripts/tsJs/DocumentReady.js", "Scripts/tsJs/Tests.js"  ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": true
+}

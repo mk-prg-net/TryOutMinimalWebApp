@@ -1,0 +1,63 @@
+﻿/*
+    (c) Martin Korneffel, Stuttgart 2017
+    Styles für Buttons
+*/
+
+
+
+.btn {
+    border-radius: 0.25em;        
+    font-family:monospace, Consolas;
+    font-size:larger;
+    font-weight: bold;
+    padding: 0.25em;    
+    color: #404040;    
+}
+
+.btn-normal {
+    background-color: gold;
+}
+
+.btn-danger {
+    
+    background-color:firebrick;    
+}
+
+.btn-cancel {
+    background-color:teal;
+    
+}
+
+
+a:link.btn {
+    color: #404040;
+    text-decoration: none;
+}
+
+
+a:visited.btn {
+    color: #404040;
+    text-decoration: none;
+}
+
+
+a:focus.btn {
+    color: #404040; 
+    text-decoration: underline;
+}
+
+
+a:hover.btn {
+    color: #404040; 
+    text-decoration: underline;
+}
+
+
+
+a:active.btn {
+    color: #404040;
+    text-decoration: underline;
+}
+
+
+

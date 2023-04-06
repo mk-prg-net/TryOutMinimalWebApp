@@ -1,0 +1,12 @@
+﻿/*
+    ⌨ Łukasiewicz List Processor 𝓛𝓛𝓟
+    Gestaltung der Eingabezeile
+*/
+
+.LLP-EditorLine {
+    border-bottom-style: solid;
+    border-bottom-color: brown;
+    font-family: Consolas, Courier New, Courier, monospace;
+    font-weight: bold;
+    color: gold;
+}

@@ -1,0 +1,131 @@
+﻿/*
+    (c) Martin Korneffel, 2017
+    Allgemeine Kopfzeile einers Seite
+    Basis sind Flexboxen
+*/
+
+googleFonts {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
+    /*
+    font-family: 'Orienta', sans-serif;
+    font-family: 'Cantata One', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Varela', sans-serif;
+    font-family: 'Capriola', sans-serif;
+*/
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+img {
+    border-radius: 8px;
+}
+
+header {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+    padding: 0px;
+    background-color: gold;
+    /* Rahmen */
+    border-radius: 8px;
+    /* Schrift */
+    color: #404040;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    /*font-size: medium;*/
+    vertical-align: middle;
+}
+
+    header h1 {
+        color: #404040;
+    }
+
+    header section {
+        margin: 4px;
+        border-width: 0px;
+        background-color: gold;
+        color: #404040;
+        padding: 0px;
+        vertical-align: baseline;
+        font-size: 30pt;
+    }
+
+        header section img {
+            margin: 0px;
+            padding: 0px;
+            display: inline;
+            border-width: 0px;
+            width: initial;
+        }
+
+        header section div {
+            margin: 0px;
+            padding: 0px;
+            display: inline;
+            text-align: left;
+        }
+
+@media screen and (max-width: 989px) {
+
+    header section {
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header section {
+        font-size: 20pt;
+    }
+
+        header section img {
+            height: initial;
+        }
+}
+
+header section a:link {
+    color: darkblue;
+}
+
+header section a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+header section a:focus {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+header section a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+header section a:active {
+    color: darkblue;
+    text-decoration: none;
+}

@@ -1,0 +1,56 @@
+﻿/*
+    (c) Martin Korneffel, Stuttgart 2017
+    Kacheln für eine Navigationsoberfläche.
+*/
+
+nav {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+    nav article {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        height: 180px;
+        width: 200px;
+        margin: 8px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 0px;
+        padding: 8px;
+        border-style: none;
+        border-color: #606060;
+        border-radius: 8px;
+        background-color: #808080;
+        text-align: center;
+        /* overflow-y: scroll */
+    }
+
+    nav button {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        margin: 8px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 0px;
+        padding: 8px;
+        background-color: gold;
+        color: #808080;
+        font-family
+    }
+
+@media screen and (max-width:989px) {
+
+    nav article {
+        height: auto;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+}

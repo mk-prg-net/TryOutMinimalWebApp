@@ -1,0 +1,192 @@
+﻿/*
+   (c) Martin Korneffel: IT- Beratung /  Softwareentwicklung
+*/
+
+
+.row {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+
+.col {    
+    float: left;
+    margin: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.col-1 {
+    width: 250px;
+}
+
+
+.col-2 {
+    width: 524px;
+}
+
+.col-3 {
+    width: 798px;
+}
+
+.col-4 {
+    width: 1072px;
+}
+
+.col-5 {
+    width: 1346px;
+}
+
+.col-6 {
+    width: 1620px;
+}
+
+.col-7 {
+    width: 1894px;
+}
+
+.col-8 {
+    width: 2168px;
+}
+
+.col-9 {
+    width: 2442px;
+}
+
+.col-10 {
+    width: 2716px;
+}
+
+.col-11 {
+    width: 2990px;
+}
+
+.col-12 {
+    width: 3264px;
+}
+
+
+
+
+
+
+.col-max-visible {
+    width: 3264px;
+}
+
+@media screen and (max-width:3263px) {
+    .col-max-visible {
+        width: 2990px;
+    }
+}
+
+@media screen and (max-width:2989px) {
+    .col-max-visible {
+        width: 2716px;
+    }
+}
+
+@media screen and (max-width:2715px) {
+    .col-max-visible {
+        width: 2442px;
+    }
+}
+
+@media screen and (max-width:2441px) {
+    .col-max-visible {
+        width: 2168px;
+    }
+}
+
+@media screen and (max-width:2167px) {
+    .col-max-visible {
+        width: 1894px;
+    }
+}
+
+@media screen and (max-width:1893px) {
+    .col-max-visible {
+        width: 1620px;
+    }
+}
+
+
+@media screen and (max-width:1619px) {
+    .col-max-visible {
+        width: 1346px;
+    }
+}
+
+@media screen and (max-width:1345px) {
+    .col-max-visible {
+        width: 1072px;
+    }
+}
+
+@media screen and (max-width:1071px) {
+    .col-max-visible {
+        width: 798px;
+    }
+}
+
+
+
+
+@media screen and (max-width:920px) {
+
+    .col-max-visible {
+        width: 95%;
+    }
+
+    .col-1 {
+        width: 95%;
+    }
+
+    .col-2 {
+        width: 95%;
+    }
+
+    .col-3 {
+        width: 95%;
+    }
+
+    .col-4 {
+        width: 95%;
+    }
+
+    .col-5 {
+        width: 95%;
+    }
+
+    .col-6 {
+        width: 95%;
+    }
+
+    .col-7 {
+        width: 95%;
+    }
+
+    .col-8 {
+        width: 95%;
+    }
+
+    .col-9 {
+        width: 95%;
+    }
+
+    .col-10 {
+        width: 95%;
+    }
+
+    .col-11 {
+        width: 95%;
+    }
+
+    .col-12 {
+        width: 95%;
+    }
+}
